@@ -16,9 +16,6 @@ $(function() {
   //contact
     $("#con").validate({
     rules: {
-      to: {
-        required: true,
-      },
       name: {
         required: true,
         lettersonly: true
@@ -33,12 +30,8 @@ $(function() {
       msg: {
         required: true, 
       },
-      human: {
-        required: true,
-      },
     },
     messages: {
-      to: 'Please select a recipient.',
       name: 'Please enter name.',
       subject: 'Please enter subject.',
       msg: 'Please enter message.',
